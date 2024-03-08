@@ -13,5 +13,6 @@ prob /= np.sum(prob) # make probabilities sum to one
 # c. Get draws from distribution
 x = np.random.choice(vec,size=10**6,p=prob)
 def Rune(x):
-    print(x)
+    print(np.mean(x))
+    
     
